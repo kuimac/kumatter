@@ -1,0 +1,15 @@
+current directory: /Users/kumagaikousuke/Documents/勉強/kumatter/test_api/vendor/bundle/ruby/2.5.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+/Users/kumagaikousuke/.rvm/rubies/ruby-2.5.1/bin/ruby -r ./siteconf20191014-90798-190fmoq.rb extconf.rb
+creating Makefile
+
+current directory: /Users/kumagaikousuke/Documents/勉強/kumatter/test_api/vendor/bundle/ruby/2.5.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR=" clean
+
+current directory: /Users/kumagaikousuke/Documents/勉強/kumatter/test_api/vendor/bundle/ruby/2.5.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.bundle
+
+current directory: /Users/kumagaikousuke/Documents/勉強/kumatter/test_api/vendor/bundle/ruby/2.5.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 debug_inspector.bundle ./.gem.20191014-90798-1v2z3zv

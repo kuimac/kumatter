@@ -1,0 +1,15 @@
+current directory: /Users/kumagaikousuke/Documents/勉強/kumatter/test_api/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.1/ext/websocket-driver
+/Users/kumagaikousuke/.rvm/rubies/ruby-2.5.1/bin/ruby -r ./siteconf20191014-90798-1skzwri.rb extconf.rb
+creating Makefile
+
+current directory: /Users/kumagaikousuke/Documents/勉強/kumatter/test_api/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.1/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /Users/kumagaikousuke/Documents/勉強/kumatter/test_api/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.1/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/kumagaikousuke/Documents/勉強/kumatter/test_api/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.1/ext/websocket-driver
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 websocket_mask.bundle ./.gem.20191014-90798-19vs0vx
