@@ -16,7 +16,6 @@ export class AppComponent {
   userUrl = 'http://localhost:3000/users.json';
 
   constructor(private http: HttpClient) {
-    // getメソッドにobserveオプションを指定
     http.get<ResJSON>(this.userUrl)
       .subscribe(response => {
         console.log(response);
