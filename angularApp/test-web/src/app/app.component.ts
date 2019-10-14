@@ -1,4 +1,9 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+
+interface ResJSON {
+  json: any;
+}
 
 @Component({
   selector: 'app-root',
@@ -6,5 +11,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'test-web';
-}
+  title = 'test';
+  users;
+  userUrl = 'http://localhost:3000/users.json';
+
+  constructor(private http: HttpClient) {
+    // getメソッドにobserveオプションを指定
+    http.get<ResJSON>(this.userUrl)
+      .subscribe(response => {
+        console.log(response);
+        return (this.users = response);
+      });
+    }
+  }
