@@ -32,4 +32,12 @@ describe('AppComponent', () => {
     const compiled = fixture.debugElement.nativeElement;
     expect(compiled.querySelector('h1').textContent).toContain('Welcome to test!');
   });
+
+  it('id="userName"ユーザー名と表示される', () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    fixture.detectChanges();
+    const app = document.getElementById(`userName`).innerHTML;
+    expect(app).toEqual('ユーザー名');
+  });
+
 });
