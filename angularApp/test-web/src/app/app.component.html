@@ -1,8 +1,9 @@
 <!--The content below is only a placeholder and can be replaced.-->
+<router-outlet></router-outlet>
 <div style="text-align:center">
   <h1>
-    Welcome to {{ title }}!
+{{ title }}ページだよ
   </h1>
 
-<div class="userNames" *ngFor="let user of users">ユーザー名:{{ user.name }}</div>
-<h2 id="userName">ユーザー名</h2>
+  <a routerLink="/user">User</a>
+  <a routerLink="/">top</a>
