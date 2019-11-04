@@ -11,7 +11,7 @@ import { TopComponent } from './top/top.component';
 
 const routes: Routes = [
   { path: '', component: TopComponent },
-  { path: 'user', component: UserComponent }
+  { path: 'users', component: UserComponent }
 ];
 
 @NgModule({
