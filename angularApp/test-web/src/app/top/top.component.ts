@@ -8,8 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class TopComponent implements OnInit {
   title = 'Top';
 
-  constructor() { }
-
+  constructor() {
+    console.log('top-component');
+   }
   ngOnInit() {
   }
 

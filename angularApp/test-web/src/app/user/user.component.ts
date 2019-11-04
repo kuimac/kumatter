@@ -16,6 +16,7 @@ export class UserComponent {
   userUrl = 'http://localhost:3000/users.json';
 
   constructor(private http: HttpClient) {
+    console.log('user-component');
     http.get<ResJSON>(this.userUrl)
       .subscribe(response => {
         console.log(response);
