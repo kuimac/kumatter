@@ -8,6 +8,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { UserComponent } from './user/user.component';
 import { HeaderComponent } from './header/header.component';
 import { TopComponent } from './top/top.component';
+import { NewComponent } from './user/new/new.component';
 
 const routes: Routes = [
   { path: '', component: TopComponent },
@@ -20,6 +21,7 @@ const routes: Routes = [
     UserComponent,
     HeaderComponent,
     TopComponent,
+    NewComponent,
   ],
   imports: [
     BrowserModule,

@@ -6,17 +6,17 @@ interface ResJSON {
 }
 
 @Component({
-  selector: 'app-user',
-  templateUrl: './user.component.html',
-  styleUrls: ['./user.component.scss']
+  selector: 'app-users',
+  templateUrl: './users.component.html',
+  styleUrls: ['./users.component.scss']
 })
 export class UserComponent {
-  title = 'user';
+  title = 'users';
   users;
   userUrl = 'http://localhost:3000/users.json';
 
   constructor(private http: HttpClient) {
-    console.log('user-component');
+    console.log('users-component');
     http.get<ResJSON>(this.userUrl)
       .subscribe(response => {
         console.log(response);
