@@ -6,9 +6,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule, Routes } from '@angular/router';
 
 import { UserComponent } from './user/user.component';
+import { HeaderComponent } from './header/header.component';
+import { TopComponent } from './top/top.component';
 
 const routes: Routes = [
-  { path: '', component: AppComponent },
+  { path: '', component: TopComponent },
   { path: 'user', component: UserComponent }
 ];
 
@@ -16,6 +18,8 @@ const routes: Routes = [
   declarations: [
     AppComponent,
     UserComponent,
+    HeaderComponent,
+    TopComponent,
   ],
   imports: [
     BrowserModule,

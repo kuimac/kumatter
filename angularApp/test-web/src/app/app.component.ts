@@ -11,7 +11,7 @@ interface ResJSON {
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'test';
+  title = 'app';
 
   constructor(private http: HttpClient) {
     }
